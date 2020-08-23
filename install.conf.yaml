@@ -13,5 +13,12 @@
     ~/.i3:
         path: i3/
         create: true
+    ~/menus:
+        path: menus/
+        create: true
+
+- clean: ['~']
+
+- link:
 
 
