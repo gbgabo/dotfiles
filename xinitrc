@@ -67,3 +67,4 @@ get_session(){
 exec slstatus &
 # exec nitrogen --set-auto Imagens/wallpapers/void.png
 exec $(get_session)
+xset r rate 660 25
