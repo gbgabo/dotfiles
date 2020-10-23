@@ -1,0 +1,18 @@
+Settings:
+  Power:
+    Shutdown: shutdown -h now
+    Restart: reboot
+    Lock: i3lock-fancy
+  Network: alacritty -e nmtui
+  Sound: alacritty -e alsamixer
+  Packages: alacritty -e pacui
+  Bluetooth: blueman-manager
+  Screenshot: flameshot gui
+  Displays: arandr
+  Background: nitrogen
+  Dotfiles:
+    vim: code /home/gabo/.vimrc
+    bash: code /home/gabo/.bashrc
+    i3: code /home/gabo/.i3/config
+    userChrome: code /home/gabo/.mozilla/firefox/9lkm9tdr.default/chrome
+    tmenus: code /home/gabo/menus
