@@ -13,8 +13,8 @@
     ~/.i3:
         path: i3/
         create: true
-    ~/menus:
-        path: menus/
+    ~/tmenus:
+        path: tmenus/
         create: true
 
 - clean: ['~']
