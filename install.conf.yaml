@@ -17,6 +17,5 @@
         path: tmenus/
         create: true
     ~/.themes:
-	path: gtk-themes/
-	create: true
-
+        path: gtk-themes/
+        create: true
