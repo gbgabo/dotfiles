@@ -19,3 +19,6 @@
     ~/.themes:
         path: gtk-themes/
         create: true
+    ~/.icons:
+        path: icons/
+        create: true
