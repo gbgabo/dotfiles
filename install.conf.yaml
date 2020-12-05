@@ -16,9 +16,7 @@
     ~/tmenus:
         path: tmenus/
         create: true
-
-- clean: ['~']
-
-- link:
-
+    ~/.themes:
+	path: gtk-themes/
+	create: true
 
