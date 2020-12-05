@@ -1,7 +1,0 @@
-dotfiles:
-  vim: code /home/gabo/.vimrc
-  bash: code /home/gabo/.bashrc
-  i3: code /home/gabo/.i3/config
-  userChrome: pcmanfm /home/gabo/.mozilla/firefox/9lkm9tdr.default/chrome
-    
-

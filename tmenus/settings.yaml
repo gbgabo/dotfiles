@@ -3,16 +3,16 @@ Settings:
     Shutdown: shutdown -h now
     Restart: reboot
     Lock: i3lock-fancy
-  Network: alacritty -e nmtui
-  Sound: alacritty -e alsamixer
-  Packages: alacritty -e pacui
+  Network: xfce4-terminal -e nmtui
+  Sound: xfce4-terminal -e alsamixer
+  Packages: xfce4-terminal -e aptitude
   Bluetooth: blueman-manager
   Screenshot: flameshot gui
   Displays: arandr
   Background: nitrogen
   Dotfiles:
-    vim: code /home/gabo/.vimrc
-    bash: code /home/gabo/.bashrc
-    i3: code /home/gabo/.i3/config
-    userChrome: code /home/gabo/.mozilla/firefox/9lkm9tdr.default/chrome
-    tmenus: code /home/gabo/menus
+    vim: codium /home/gabo/.vimrc
+    bash: codium /home/gabo/.bashrc
+    i3: codium /home/gabo/.i3/config
+    userChrome: codium /home/gabo/.mozilla/firefox/9lkm9tdr.default/chrome
+    tmenus: codium /home/gabo/tmenus
