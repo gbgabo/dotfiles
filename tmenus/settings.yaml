@@ -2,14 +2,17 @@ Settings:
   Power:
     Shutdown: shutdown -h now
     Restart: reboot
-    Lock: i3lock-fancy
+    Lock: slock
   Network: xfce4-terminal -e nmtui
   Sound: xfce4-terminal -e alsamixer
-  Packages: xfce4-terminal -e aptitude
+  Packages: xfce4-terminal -e sudo apt update
   Bluetooth: blueman-manager
-  Screenshot: flameshot gui
+  Screenshot: import -window root Pictures/image.png
   Displays: arandr
-  Background: nitrogen
+  Appearance: lxappearance
+  Repos: /home/gabo/packages/tinytools/tgit/tgit
+  Keyboard: /home/gabo/packages/keyboard.sh
+  Background: /home/gabo/packages/bg.sh
   Dotfiles:
     vim: codium /home/gabo/.vimrc
     bash: codium /home/gabo/.bashrc

@@ -1,3 +1,5 @@
+#!/bin/bash
+xinput set-prop 11 288 1 &
+exec slstatus &
+exec feh --bg-scale $HOME/Pictures/wallpapers/void.png &
 exec dwm
-exec xinput set-prop "ELAN0501:01 04F3:3060 Touchpad" "libinput Tapping Enabled" 1
-exec slstatus
