@@ -5,7 +5,7 @@ Settings:
     Lock: slock
   Network: xfce4-terminal -e nmtui
   Sound: xfce4-terminal -e alsamixer
-  Packages: xfce4-terminal -e sudo apt update
+  Packages: xfce4-terminal -e 'bash -c "sudo apt update; zsh"'
   Bluetooth: blueman-manager
   Screenshot: import -window root Pictures/image.png
   Displays: arandr
@@ -19,3 +19,6 @@ Settings:
     i3: codium /home/gabo/.i3/config
     userChrome: codium /home/gabo/.mozilla/firefox/9lkm9tdr.default/chrome
     tmenus: codium /home/gabo/tmenus
+  Monitor: 
+    Weather: xfce4-terminal -e 'bash -c "curl wttr.in; zsh"'
+    Resources: xfce4-terminal -e top
