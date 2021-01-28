@@ -1,24 +1,29 @@
 Settings:
   Power:
-    Shutdown: shutdown -h now
-    Restart: reboot
-    Lock: slock
-  Network: xfce4-terminal -e nmtui
-  Sound: xfce4-terminal -e alsamixer
-  Packages: xfce4-terminal -e 'bash -c "sudo apt update; zsh"'
+    Shutdown: x-terminal-emulator -e 'bash -c "sudo poweroff"'
+    Restart: x-terminal-emulator -e 'bash -c "sudo reboot"'
+    Lock: xscreensaver-command -lock
+  Network: 
+    Settings: x-terminal-emulator -e nmtui
+    Pi-hole: firefox-esr http://192.168.18.18/admin/index.php
+  Sound: x-terminal-emulator -e alsamixer
+  Packages: x-terminal-emulator -e 'bash -c "sudo apt update; zsh"'
   Bluetooth: blueman-manager
-  Screenshot: import -window root Pictures/image.png
+  Screenshot: scrot '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
   Displays: arandr
   Appearance: lxappearance
-  Repos: /home/gabo/packages/tinytools/tgit/tgit
-  Keyboard: /home/gabo/packages/keyboard.sh
-  Background: /home/gabo/packages/bg.sh
+  Repos: $HOME/packages/tinytools/tgit/dmenu_tgit
+  Keyboard: $HOME/packages/keyboard.sh
+  Background: sxiv -t -o $HOME/Pictures/wallpapers | xargs xwallpaper --output eDP-1 --stretch
   Dotfiles:
-    vim: codium /home/gabo/.vimrc
-    bash: codium /home/gabo/.bashrc
-    i3: codium /home/gabo/.i3/config
-    userChrome: codium /home/gabo/.mozilla/firefox/9lkm9tdr.default/chrome
-    tmenus: codium /home/gabo/tmenus
+    vim: codium $HOME/.vimrc
+    bash: codium $HOME/.bashrc
+    i3: codium $HOME/.i3/config
+    userChrome: codium $HOME/.mozilla/firefox/9lkm9tdr.default/chrome
+    tmenus: codium $HOME/tmenus
+    install-script: codium $HOME/install-script.sh
   Monitor: 
-    Weather: xfce4-terminal -e 'bash -c "curl wttr.in; zsh"'
-    Resources: xfce4-terminal -e top
+    Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
+    Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'
+  ssh: x-terminal-emulator -e 'zsh -c "ssh pi@192.168.18.18"'
+  About: x-terminal-emulator -e 'zsh -c "neofetch; zsh"'
