@@ -40,3 +40,5 @@ alias python3='/usr/bin/python3.7'
 # export PATH="$PATH:$HOME/dev/flutter/bin"
 # export PATH="$PATH:$HOME/dev/flutter"
 export PATH="$PATH:$HOME/.local/bin"
+
+neofetch

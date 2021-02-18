@@ -3,9 +3,13 @@ Settings:
     Shutdown: x-terminal-emulator -e 'bash -c "sudo poweroff"'
     Restart: x-terminal-emulator -e 'bash -c "sudo reboot"'
     Lock: xscreensaver-command -lock
-  Network: 
-    Settings: x-terminal-emulator -e nmtui
+  Network: x-terminal-emulator -e nmtui
+  Self-Host:
     Pi-hole: firefox-esr http://192.168.18.18/admin/index.php
+    Yuno-Host: xdg-open https://gabo.link
+  ssh:
+    VPS: x-terminal-emulator -e 'zsh -c "ssh admin@gabo.link"'
+    pi: x-terminal-emulator -e 'zsh -c "ssh pi@192.168.18.18"'
   Sound: x-terminal-emulator -e alsamixer
   Packages: x-terminal-emulator -e 'bash -c "sudo apt update; zsh"'
   Bluetooth: blueman-manager
@@ -13,6 +17,7 @@ Settings:
   Displays: arandr
   Appearance: lxappearance
   Repos: $HOME/packages/tinytools/tgit/dmenu_tgit
+  Windows: $HOME/packages/tinytools/twindow/dmenu_twindow
   Keyboard: $HOME/packages/keyboard.sh
   Background: sxiv -t -o $HOME/Pictures/wallpapers | xargs xwallpaper --output eDP-1 --stretch
   Dotfiles:
@@ -25,5 +30,4 @@ Settings:
   Monitor: 
     Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
     Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'
-  ssh: x-terminal-emulator -e 'zsh -c "ssh pi@192.168.18.18"'
   About: x-terminal-emulator -e 'zsh -c "neofetch; zsh"'
