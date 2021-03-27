@@ -1,4 +1,5 @@
 source '/usr/share/zsh-antigen/antigen.zsh'
+# source '~/.antigen/bundles/robbyrussell/oh-my-zsh/themes/wild-berries.zsh-theme'
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -16,29 +17,25 @@ antigen bundle npm
 antigen bundle encode64
 antigen bundle colorize
 antigen bundle github
-antigen bundle brew
-antigen bundle rails
+# antigen bundle brew
+# antigen bundle rails
 antigen bundle python
-antigen bundle ruby
+# antigen bundle ruby
 antigen bundle capistrano
-antigen bundle bundler
+# antigen bundle bundler
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
-# Load the theme.
-antigen theme wild-berries
-
 # Tell Antigen that you're done.
 antigen apply
-if [[ -r /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
-source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
-fi
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias python3='/usr/bin/python3.7' 
 
 # export PATH="$PATH:$HOME/dev/flutter/bin"
 # export PATH="$PATH:$HOME/dev/flutter"
 export PATH="$PATH:$HOME/.local/bin"
+
+# Load the theme.
+source "$HOME/.antigen/bundles/themes/wild-berries.zsh-theme"
 
 neofetch

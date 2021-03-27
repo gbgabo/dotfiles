@@ -13,13 +13,15 @@ Settings:
   Sound: x-terminal-emulator -e alsamixer
   Packages: x-terminal-emulator -e 'bash -c "sudo apt update; zsh"'
   Bluetooth: blueman-manager
-  Screenshot: scrot '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
+  Screenshot:
+    Fullscreen: scrot '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
+    Selected: scrot -s '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
   Displays: arandr
   Appearance: lxappearance
-  Repos: $HOME/packages/tinytools/tgit/dmenu_tgit
+  Repos: dmenu_tgit
   Windows: $HOME/packages/tinytools/twindow/dmenu_twindow
-  Keyboard: $HOME/packages/keyboard.sh
-  Background: sxiv -t -o $HOME/Pictures/wallpapers | xargs xwallpaper --output eDP-1 --stretch
+  Keyboard: fcitx-configtool
+  Background: sxiv -t -o $HOME/Pictures/wallpapers | xargs xwallpaper --stretch
   Dotfiles:
     vim: codium $HOME/.vimrc
     bash: codium $HOME/.bashrc
@@ -30,4 +32,5 @@ Settings:
   Monitor: 
     Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
     Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'
+  tmenu: tmenu $HOME/packages/tinytools/tmenu/menu.yaml
   About: x-terminal-emulator -e 'zsh -c "neofetch; zsh"'

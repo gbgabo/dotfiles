@@ -25,5 +25,8 @@
     ~/.config/neovim:
         path: neovim/
         create: true
-    ~/.antigen/bundles/robbyrussell/oh-my-zsh/themes/wild-berries.zsh-theme: wild-berries.zsh-theme
+    ~/.antigen/bundles/themes/wild-berries.zsh-theme: wild-berries.zsh-theme
     ~/.config/VSCodium/User/settings.json: vscodium-settings.json
+    ~/.config/dunst/dunstrc: 
+        path: dunstrc
+        create: true
