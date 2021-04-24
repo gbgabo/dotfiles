@@ -7,6 +7,7 @@ Settings:
   Self-Host:
     Pi-hole: firefox-esr http://192.168.18.18/admin/index.php
     Yuno-Host: xdg-open https://gabo.link
+    Modem: xdg-open http://192.168.18.1/
   ssh:
     VPS: x-terminal-emulator -e 'zsh -c "ssh admin@gabo.link"'
     pi: x-terminal-emulator -e 'zsh -c "ssh pi@192.168.18.18"'
@@ -20,15 +21,10 @@ Settings:
   Appearance: lxappearance
   Repos: dmenu_tgit
   Windows: $HOME/packages/tinytools/twindow/dmenu_twindow
+  WebApps: tmenu $HOME/tmenus/webapps.yaml
   Keyboard: fcitx-configtool
   Background: sxiv -t -o $HOME/Pictures/wallpapers | xargs xwallpaper --stretch
-  Dotfiles:
-    vim: codium $HOME/.vimrc
-    bash: codium $HOME/.bashrc
-    i3: codium $HOME/.i3/config
-    userChrome: codium $HOME/.mozilla/firefox/9lkm9tdr.default/chrome
-    tmenus: codium $HOME/tmenus
-    install-script: codium $HOME/install-script.sh
+  Dotfiles: codium $HOME/.dotfiles
   Monitor: 
     Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
     Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'

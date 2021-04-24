@@ -1,0 +1,5 @@
+webapps:
+  Discord: xdg-open https://discord.com/channels/@me
+  Telegram: xdg-open https://evgeny-nadymov.github.io/telegram-react/
+  Podcast: xdg-open https://podcasts.google.com/
+  Notion: xdg-open https://www.notion.so/
