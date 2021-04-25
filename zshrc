@@ -36,6 +36,9 @@ alias python3='/usr/bin/python3.7'
 export PATH="$PATH:$HOME/.local/bin"
 
 # Load the theme.
-source "$HOME/.antigen/bundles/themes/wild-berries.zsh-theme"
+# source "$HOME/.antigen/bundles/themes/wild-berries.zsh-theme"
+# antigen theme denysdovhan/spaceship-prompt
+eval "$(starship init zsh)"
+# antigen theme jackharrisonsherlock/common
 
 neofetch
