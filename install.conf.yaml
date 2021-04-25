@@ -9,24 +9,10 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.Xresources: Xresources
-    ~/.xinitrc: xinitrc
-    ~/.i3:
-        path: i3/
-        create: true
     ~/tmenus:
         path: tmenus/
-        create: true
-    ~/.themes:
-        path: gtk-themes/
-        create: true
-    ~/.icons:
-        path: icons/
         create: true
     ~/.config/neovim:
         path: neovim/
         create: true
     ~/.antigen/bundles/themes/wild-berries.zsh-theme: wild-berries.zsh-theme
-    ~/.config/VSCodium/User/settings.json: vscodium-settings.json
-    ~/.config/dunst/dunstrc: 
-        path: dunstrc
-        create: true
