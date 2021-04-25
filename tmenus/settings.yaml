@@ -6,7 +6,6 @@ Settings:
   Network: x-terminal-emulator -e nmtui
   Self-Host:
     Pi-hole: firefox-esr http://192.168.18.18/admin/index.php
-    Yuno-Host: xdg-open https://gabo.link
     Modem: xdg-open http://192.168.18.1/
   ssh:
     VPS: x-terminal-emulator -e 'zsh -c "ssh admin@gabo.link"'
@@ -28,5 +27,4 @@ Settings:
   Monitor: 
     Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
     Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'
-  tmenu: tmenu $HOME/packages/tinytools/tmenu/menu.yaml
   About: x-terminal-emulator -e 'zsh -c "neofetch; zsh"'

@@ -560,4 +560,5 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.inlineHints.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "terminal.integrated.fontFamily": "monospace, PowerlineSymbols",
+    "window.menuBarVisibility": "compact",
 }
