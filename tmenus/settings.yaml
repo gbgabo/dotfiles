@@ -14,17 +14,22 @@ Settings:
   Packages: x-terminal-emulator -e 'bash -c "sudo apt update; zsh"'
   Bluetooth: blueman-manager
   Screenshot:
-    Fullscreen: scrot '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
-    Selected: scrot -s '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
+    Fullscreen: scrot -q 100 '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
+    Selected: scrot -s -q 100 '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
   Displays: arandr
   Appearance: lxappearance
   Repos: dmenu_tgit
   Windows: $HOME/packages/tinytools/twindow/dmenu_twindow
-  WebApps: tmenu $HOME/tmenus/webapps.yaml
+  Webapps:
+    Discord: xdg-open https://discord.com/channels/@me
+    Telegram: xdg-open https://evgeny-nadymov.github.io/telegram-react/
+    Podcast: xdg-open https://podcasts.google.com/
+    Notion: xdg-open https://www.notion.so/
   Keyboard: fcitx-configtool
   Background: sxiv -t -o $HOME/Pictures/wallpapers | xargs xwallpaper --stretch
   Dotfiles: codium $HOME/.dotfiles
-  Monitor: 
+  Explorer: x-terminal-emulator -e 'nnn'
+  Monitor:
     Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
     Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'
   About: x-terminal-emulator -e 'zsh -c "neofetch; zsh"'
