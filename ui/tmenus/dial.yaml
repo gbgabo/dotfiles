@@ -1,4 +1,4 @@
-Settings:
+Dial:
   Power:
     Shutdown: x-terminal-emulator -e 'bash -c "sudo poweroff"'
     Restart: x-terminal-emulator -e 'bash -c "sudo reboot"'
@@ -33,3 +33,4 @@ Settings:
     Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
     Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'
   About: x-terminal-emulator -e 'zsh -c "neofetch; zsh"'
+  Mine: java -jar $HOME/Downloads/linux_osx/Shiginima\ Launcher\ SE.v4400.jar

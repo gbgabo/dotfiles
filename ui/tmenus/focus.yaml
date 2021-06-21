@@ -1,0 +1,16 @@
+focus:
+  projects:
+    code: xdg-open https://www.notion.so/C-digo-c478af66b39e4de5b4332837ccccfee3
+    text: xdg-open https://www.notion.so/Texto-f3dc82c93f904eb0b3ed06d566aa1509
+    audio: xdg-open https://www.notion.so/udio-416d39623dae40bab36515173f460b1e
+    video: xdg-open https://www.notion.so/V-deo-b5ed28287d5a44cd82e4d780ccecec2f
+    image: xdg-open https://www.notion.so/Imagem-9175348c3f884f32a301f0bf1b66c14d
+    material: xdg-open https://www.notion.so/Material-70eab3e3bf7e4c04b4187a097e300c27
+  study:
+    PFPL: xdg-open https://www.notion.so/PFPL-Programa-de-Forma-o-Profissional-Lean-53bb2db9c9654edbb8fedf7b41d0fcaa
+    typescript: xdg-open https://google.com
+    node_js: xdg-open https://google.com
+    next_js: xdg-open https://google.com
+    blender: xdg-open https://google.com
+    vanilla_js: xdg-open https://google.com
+    AI: xdg-open https://google.com

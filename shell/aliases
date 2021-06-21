@@ -1,0 +1,40 @@
+# Dedicated file to store all aliases used in my shell.
+# It can be used by sourcing this file on your {bash/zsh}rc
+
+# ============== color aliases ==============
+
+alias blk='\[\033[01;30m\]'   # Black
+alias red='\[\033[01;31m\]'   # Red
+alias grn='\[\033[01;32m\]'   # Green
+alias ylw='\[\033[01;33m\]'   # Yellow
+alias blu='\[\033[01;34m\]'   # Blue
+alias pur='\[\033[01;35m\]'   # Purple
+alias cyn='\[\033[01;36m\]'   # Cyan
+alias wht='\[\033[01;37m\]'   # White
+alias clr='\[\033[00m\]'      # Reset
+
+# ============== git aliases ==============
+
+alias gs='git status'
+alias gc='git commit'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+
+# ============== utilities aliases ==============
+
+alias cp="cp -i"            	# confirm before overwriting something
+alias df='df -h'             	# human-readable sizes
+alias free='free -m'        	# show sizes in MB
+alias np='nano -w PKGBUILD'
+alias more=less
+alias myip='curl ipinfo.io/ip'	# print my public IP
+alias left='ls -t -1'
+
+# ============== navigation aliases ==============
+
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+
+alias dot="cd ~/.dotfiles"

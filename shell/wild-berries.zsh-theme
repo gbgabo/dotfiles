@@ -59,7 +59,7 @@ git_prompt() {
 # set the git_prompt_info text
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
-ZSH_THEME_GIT_PROMPT_DIRTY="*"
+ZSH_THEME_GIT_PROMPT_DIRTY=" *"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 # set the git_prompt_status text

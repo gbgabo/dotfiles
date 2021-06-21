@@ -1,5 +1,4 @@
 source '/usr/share/zsh-antigen/antigen.zsh'
-# source '~/.antigen/bundles/robbyrussell/oh-my-zsh/themes/wild-berries.zsh-theme'
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -36,6 +35,9 @@ alias python3='/usr/bin/python3.7'
 export PATH="$PATH:$HOME/.local/bin"
 
 # Load the theme.
-source "$HOME/.antigen/bundles/themes/wild-berries.zsh-theme"
+source "$HOME/.dotfiles/shell/wild-berries.zsh-theme"
+
+source $HOME/.dotfiles/shell/aliases
+source $HOME/.dotfiles/shell/functions
 
 neofetch
