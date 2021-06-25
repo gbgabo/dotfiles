@@ -1,10 +1,21 @@
 # dotfiles
 
+![](screenshot.jpg)
+
 A repository to centralize all configuration files my workflow needs to behave the way It should.
 
 Here you will find **shell** utilities, ui/**theming** configurations, and some applications **config files**.
 
-## instalation
+## ✨ details
+
+- **Shell**: ZSH
+- **WM**: dwm
+- **Theme**: oomox-wildBerries
+- **Icons**: papirus-wilBerries
+- **Terminal**: xfce4-terminal
+- **Terminal Font**: JetBrains Mono NL Medium 12
+
+## ⚙️ instalation
 
 My dotfiles are installed through dotbot, so you just need to `./install`
 
@@ -12,7 +23,7 @@ This script creates a symlink of each dotfile to its expected location on the sy
 
 More about dotbot [here](https://github.com/anishathalye/dotbot)
 
-## what's inside
+## 🗃️ what's inside
 
 ```
 .dotfiles
@@ -50,7 +61,7 @@ More about dotbot [here](https://github.com/anishathalye/dotbot)
 └── README.md
 ```
 
-## Other ricing repositories
+## ↗️ Other ricing repositories
 
 ### scripts
 
