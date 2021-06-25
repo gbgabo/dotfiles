@@ -1,4 +1,6 @@
-# dotfiles
+<div align="center">
+    <h1>My Dotfiles</h1>
+</div>
 
 ![](screenshot.jpg)
 
@@ -6,7 +8,7 @@ A repository to centralize all configuration files my workflow needs to behave t
 
 Here you will find **shell** utilities, ui/**theming** configurations, and some applications **config files**.
 
-## ✨ details
+## ✨ Details
 
 - **Shell**: ZSH
 - **WM**: dwm
@@ -14,6 +16,17 @@ Here you will find **shell** utilities, ui/**theming** configurations, and some 
 - **Icons**: papirus-wilBerries
 - **Terminal**: xfce4-terminal
 - **Terminal Font**: JetBrains Mono NL Medium 12
+
+<a name="dependencies"></a>
+
+## Dependencies
+
+|  Dependency  |                     Description                     |
+| :----------: | :-------------------------------------------------: |
+|    `dwm`     |                   Window manager                    |
+|   `dmenu`    |                Application launcher                 |
+| `xwallpaper` | Fast image viewer used as wallpaper setting utility |
+|    `sxiv`    |   image visualizer, used for background settings    |
 
 ## ⚙️ instalation
 
@@ -23,7 +36,7 @@ This script creates a symlink of each dotfile to its expected location on the sy
 
 More about dotbot [here](https://github.com/anishathalye/dotbot)
 
-## 🗃️ what's inside
+## 🗃️ What's inside
 
 ```
 .dotfiles
@@ -61,6 +74,12 @@ More about dotbot [here](https://github.com/anishathalye/dotbot)
 └── README.md
 ```
 
+### config files
+
+### shell files
+
+### ui/theming files
+
 ## ↗️ Other ricing repositories
 
 ### scripts
@@ -82,3 +101,5 @@ Other suckless applications I forked to my own needs:
 There is a dedicated repository for that:
 
 - [gbgabo/wallpapers](https://github.com/gbgabo/wallpapers)
+
+repository's README highly inspired by [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles), check out the awesome work of his.
