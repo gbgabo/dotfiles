@@ -91,11 +91,11 @@ More about dotbot [here](https://github.com/anishathalye/dotbot)
 
 ## ↗️ Other repositories to check
 
-- [gbgabo/scripts](https://github.com/gbgabo/scripts)
-- [gbgabo/dwm](https://github.com/gbgabo/dwm)
-- [gbgabo/dmenu](https://github.com/gbgabo/dmenu)
-- [TinyTools](https://github.com/TinyToolSH), mainly [tmenu](https://github.com/TinyToolSH/tmenu) and [tsearch](https://github.com/TinyToolSH/tsearch)
-- [gbgabo/wallpapers](https://github.com/gbgabo/wallpapers)
+- [gbgabo/scripts](https://github.com/gbgabo/scripts) - personal scripts for volume control, brightness;
+- [gbgabo/dwm](https://github.com/gbgabo/dwm) - own fork of dwm, including many useful patches and own color theme;
+- [gbgabo/dmenu](https://github.com/gbgabo/dmenu) - dmenu fork with center patch and own color theme;
+- [TinyTools](https://github.com/TinyToolSH) - mainly [tmenu](https://github.com/TinyToolSH/tmenu) and [tsearch](https://github.com/TinyToolSH/tsearch), both used as dmenu wrappers for custom menus and search;
+- [gbgabo/wallpapers](https://github.com/gbgabo/wallpapers) - dedicated repository for all my wallpapers;
 
 ---
 
