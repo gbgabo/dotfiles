@@ -1,5 +1,13 @@
 <div align="center">
-    <h1>My Dotfiles</h1>
+    
+```
+██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗
+██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝
+██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗
+██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║
+██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║
+╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
+```
 </div>
 
 ![](screenshot.jpg)
@@ -8,18 +16,20 @@ A repository to centralize all configuration files my workflow needs to behave t
 
 Here you will find **shell** utilities, ui/**theming** configurations, and some applications **config files**.
 
-## ✨ Details
+## ℹ️ Details
 
 - **Shell**: ZSH
 - **WM**: dwm
 - **Theme**: oomox-wildBerries
 - **Icons**: papirus-wilBerries
-- **Terminal**: xfce4-terminal
+- **Terminal**: xfce4-terminalWM: dwm
+  `$$b "-.__ Theme: oomox-wildBerries [GTK2/3] `Y$$ Icons: papirus-wildBerries [GTK2/3]
+  `Y$$. Terminal: xfce4-terminal `$$b. Terminal Font: JetBrains Mono NL Medium 12
 - **Terminal Font**: JetBrains Mono NL Medium 12
 
 <a name="dependencies"></a>
 
-## Dependencies
+## 📦 Dependencies
 
 |  Dependency  |                     Description                     |
 | :----------: | :-------------------------------------------------: |
