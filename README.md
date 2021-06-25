@@ -28,7 +28,7 @@ Here you will find **shell** utilities, ui/**theming** configurations, and some 
 | `xwallpaper` | Fast image viewer used as wallpaper setting utility |
 |    `sxiv`    |   image visualizer, used for background settings    |
 
-## ⚙️ instalation
+## ⚙️ Instalation
 
 My dotfiles are installed through dotbot, so you just need to `./install`
 
