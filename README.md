@@ -23,9 +23,7 @@ Here you will find **shell** utilities, ui/**theming** configurations, and some 
 - **WM**: dwm
 - **Theme**: oomox-wildBerries
 - **Icons**: papirus-wilBerries
-- **Terminal**: xfce4-terminalWM: dwm
-  `$$b "-.__ Theme: oomox-wildBerries [GTK2/3] `Y$$ Icons: papirus-wildBerries [GTK2/3]
-  `Y$$. Terminal: xfce4-terminal `$$b. Terminal Font: JetBrains Mono NL Medium 12
+- **Terminal**: xfce4-terminal
 - **Terminal Font**: JetBrains Mono NL Medium 12
 
 <a name="dependencies"></a>
@@ -85,32 +83,20 @@ More about dotbot [here](https://github.com/anishathalye/dotbot)
 └── README.md
 ```
 
-### config files
+### - `config` files
 
-### shell files
+### - `shell` files
 
-### ui/theming files
+### - `ui` files
 
-## ↗️ Other ricing repositories
-
-### scripts
-
-If you want to check the personal scripts I use in my workflow, there is a dedicated repo for that.
+## ↗️ Other repositories to check
 
 - [gbgabo/scripts](https://github.com/gbgabo/scripts)
-
-### used applications
-
-Other suckless applications I forked to my own needs:
-
 - [gbgabo/dwm](https://github.com/gbgabo/dwm)
 - [gbgabo/dmenu](https://github.com/gbgabo/dmenu)
 - [TinyTools](https://github.com/TinyToolSH), mainly [tmenu](https://github.com/TinyToolSH/tmenu) and [tsearch](https://github.com/TinyToolSH/tsearch)
-
-### wallpapers
-
-There is a dedicated repository for that:
-
 - [gbgabo/wallpapers](https://github.com/gbgabo/wallpapers)
 
-repository's README highly inspired by [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles), check out the awesome work of his.
+---
+
+Repository's README highly inspired by [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles), check out the awesome work of his.
