@@ -64,6 +64,7 @@ Other suckless applications I forked to my own needs:
 
 - [gbgabo/dwm](https://github.com/gbgabo/dwm)
 - [gbgabo/dmenu](https://github.com/gbgabo/dmenu)
+- [TinyTools](https://github.com/TinyToolSH), mainly [tmenu](https://github.com/TinyToolSH/tmenu) and [tsearch](https://github.com/TinyToolSH/tsearch)
 
 ### wallpapers
 
