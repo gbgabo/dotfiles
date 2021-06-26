@@ -30,14 +30,18 @@ Here you will find **shell** utilities, ui/**theming** configurations, and some 
 
 ## 📦 Dependencies
 
-|  Dependency  |                     Description                     |
-| :----------: | :-------------------------------------------------: |
-|    `dwm`     |                   Window manager                    |
-|   `dmenu`    |                Application launcher                 |
-| `xwallpaper` | Fast image viewer used as wallpaper setting utility |
-|    `sxiv`    |   image visualizer, used for background settings    |
+Minimum applications necessary to reproduce my workflow:
 
-## ⚙️ Instalation
+|  Dependency  |                Description                | Installation |
+| :----------: | :---------------------------------------: | :----------: |
+|    `dwm`     |              Window manager               |
+|   `dmenu`    |           Application launcher            |
+|  `tsearch`   |             dmenu web search              |
+|   `tmenu`    |           custom menu launcher            |
+| `xwallpaper` |             wallpaper setter              |
+|    `sxiv`    | image visualizer, used for wallpaper menu |
+
+## ⚙️ Installation
 
 My dotfiles are installed through dotbot, so you just need to `./install`
 
@@ -52,11 +56,11 @@ This script creates a symlink of each dotfile to its expected location on the sy
 
 More about [dotbot](https://github.com/anishathalye/dotbot)
 
-## 🗃️ What's inside
+## 🗃️ What's Inside
 
-```
+```sh
 .dotfiles
-├── config                      # general applications config files
+├── 🗀 config                   # general applications config files
 │   ├── dunstrc
 │   ├── i3
 │   │   ├── config
@@ -68,14 +72,14 @@ More about [dotbot](https://github.com/anishathalye/dotbot)
 │   └── Xorg
 │       ├── xinitrc
 │       └── Xresources
-├── shell                       # shell utils for a CLI workflow
+├── 🗀 shell                    # shell utils for a CLI workflow
 │   ├── aliases
 │   ├── bashrc
 │   ├── functions
 │   ├── wild-berries.zsh-theme
 │   ├── zprofile
 │   └── zshrc
-├── ui                          # theming and daily use ui components
+├── 🗀 ui                       # theming and daily use ui components
 │   ├── gtk-themes
 │   │   └── oomox-wildBerries       # customized wildBerries gtk theme
 │   ├── icons
@@ -89,12 +93,6 @@ More about [dotbot](https://github.com/anishathalye/dotbot)
 ├── install.conf.yaml
 └── README.md
 ```
-
-### - `config` files
-
-### - `shell` files
-
-### - `ui` files
 
 ## ↗️ Other repositories to check
 
