@@ -30,16 +30,19 @@ Here you will find **shell** utilities, ui/**theming** configurations, and some 
 
 ## 📦 Dependencies
 
-Minimum applications necessary to reproduce my workflow:
+Applications I use everyday for my workflow. You don't really need them to enjoy my dotfiles, but if you would like to know what I use.
 
-|  Dependency  |                Description                | Installation |
-| :----------: | :---------------------------------------: | :----------: |
-|    `dwm`     |              Window manager               |
-|   `dmenu`    |           Application launcher            |
-|  `tsearch`   |             dmenu web search              |
-|   `tmenu`    |           custom menu launcher            |
-| `xwallpaper` |             wallpaper setter              |
-|    `sxiv`    | image visualizer, used for wallpaper menu |
+|  Dependency  |                Description                |                                                  Installation                                                   |
+| :----------: | :---------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+|    `dwm`     |              window manager               |              [my fork](https://github.com/gbgabo/dwm) or [project page](https://dwm.suckless.org/)              |
+|   `dmenu`    |           application launcher            |         [my fork](https://github.com/gbgabo/dmenu) or [project page](https://tools.suckless.org/dmenu/)         |
+|  `tsearch`   |             dmenu web search              |                              [project page](https://github.com/TinyToolSH/tsearch)                              |
+|   `tmenu`    |           custom menu launcher            |                               [project page](https://github.com/TinyToolSH/tmenu)                               |
+| `xwallpaper` |             wallpaper setter              |            check your distro repository or [project page](https://github.com/stoeckmann/xwallpaper)             |
+|    `sxiv`    | image visualizer, used for wallpaper menu |                check your distro repository or [project page](https://github.com/muennich/sxiv)                 |
+|   `dunst`    |            notification daemon            | [project page](https://github.com/dunst-project/dunst) (using recent version to support notification overwrite) |
+|    `zsh`     |                   shell                   |                                          check your distro repository                                           |
+|  `antigen`   |            zsh plugin manager             |              check your distro repository or [project page](https://github.com/zsh-users/antigen)               |
 
 ## ⚙️ Installation
 
@@ -99,6 +102,6 @@ More about [dotbot](https://github.com/anishathalye/dotbot)
 - [gbgabo/scripts](https://github.com/gbgabo/scripts): personal scripts for volume control, brightness;
 - [gbgabo/dwm](https://github.com/gbgabo/dwm): own fork of dwm, including many useful patches and own color theme;
 - [gbgabo/dmenu](https://github.com/gbgabo/dmenu): dmenu fork with center patch and own color theme;
-- [TinyTools](https://github.com/TinyToolSH): mainly [tmenu](https://github.com/TinyToolSH/tmenu) and [tsearch](https://github.com/TinyToolSH/tsearch), both used as dmenu wrappers for custom menus and search;
+- [TinyTools](https://github.com/TinyToolSH): mainly [tmenu](https://github.com/TinyToolSH/tmenu) and [tsearch](https://github.com/TinyToolSH/tsearch), each used as dmenu wrappers for custom menus and search, respectively;
 - [gbgabo/wallpapers](https://github.com/gbgabo/wallpapers): dedicated repository for all my wallpapers;
 - [WillPower3309/awesome-dotfiles](https://github.com/WillPower3309/awesome-dotfiles): This README is highly inspired by this repository, check out the awesome work of his.
