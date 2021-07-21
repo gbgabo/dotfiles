@@ -14,12 +14,6 @@ function ht() {
 	history | awk '{cmd[$2]++} END {for(elem in cmd) {print cmd[elem] " " elem}}' | sort -n -r | head -10;
 }
 
-# tl - terminal launch: alias to launch a command in a new terminal window
-# usage: tl <command>
-function tl() {
-	x-terminal-emulator -e "bash -c '$1'; zsh"
-}
-
 # ex - archive extractor
 # usage: ex <file>
 function ex() {
