@@ -148,7 +148,6 @@
       "gitDecoration.stageDeletedResourceForeground": "#f07171",
       "gitDecoration.stageModifiedResourceForeground": "#399ee6",
       "settings.modifiedItemIndicator": "#399ee6",
-      "notebook.focusedRowBorder": "#a470d8"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -531,7 +530,7 @@
   "workbench.iconTheme": "vscode-icons",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.inlineHints.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "terminal.integrated.fontFamily": "monospace, PowerlineSymbols",
+  "terminal.integrated.fontFamily": "monospace, PowerlineSymbols, fontawesome",
   "window.menuBarVisibility": "toggle",
   "editor.formatOnSave": true,
   "[typescript]": {
@@ -550,5 +549,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "generated-dark"
+  "workbench.colorTheme": "generated-dark",
+  "typescript.updateImportsOnFileMove.enabled": "always",
 }
