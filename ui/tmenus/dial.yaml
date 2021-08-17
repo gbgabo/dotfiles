@@ -11,7 +11,7 @@ Dial:
     VPS: x-terminal-emulator -e 'zsh -c "ssh admin@gabo.link"'
     pi: x-terminal-emulator -e 'zsh -c "ssh pi@192.168.18.18"'
   Sound: x-terminal-emulator -e alsamixer
-  Packages: x-terminal-emulator -e 'bash -c "sudo apt update; zsh"'
+  Update: x-terminal-emulator 'sudo apt update; clear; apt list --upgradable'
   Bluetooth: blueman-manager
   Screenshot:
     Fullscreen: scrot -q 100 '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.jpg'
