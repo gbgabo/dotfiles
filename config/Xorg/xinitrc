@@ -2,7 +2,7 @@
 xinput set-prop "SYNA3602:00 0911:5288 Touchpad" "libinput Tapping Enabled" 1 &
 xrdb .Xresources &
 slstatus &
-xwallpaper --output eDP-1 --stretch Pictures/wallpapers/unsplash_neon.jpg &
+xwallpaper --output eDP-1 --stretch Pictures/wallpapers/object_mono_dark_purple_horizon_1.png &
 dunst &
 fcitx -d &
 sh -c "sleep 10 && xscreensaver -no-splash &" & # Had to add a sleep so it ensures .Xresources colors on xscreensaver (xscreensaver problem)
