@@ -40,7 +40,8 @@ directory() {
    ARROW_BG="161"
    [[ -n "$(git_prompt_info)" ]] && NEXT_ARROW_BG="171" || NEXT_ARROW_BG=""
    NEXT_ARROW_FG="161"
-   echo "$(arrow_start) %2~ $(arrow_end)"
+   [[ "$PWD" = "$HOME" ]] && DIR_PATH="" || DIR_PATH=" %2~"
+   echo "$(arrow_start) $DIR_PATH $(arrow_end)"
 }
 
 current_time() {
