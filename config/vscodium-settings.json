@@ -530,7 +530,7 @@
   "workbench.iconTheme": "vscode-icons",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.inlineHints.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "terminal.integrated.fontFamily": "monospace, PowerlineSymbols, fontawesome",
+  "terminal.integrated.fontFamily": "monospace, PowerlineSymbols, fontawesome, JetBrainsMonoMedium Nerd Font",
   "window.menuBarVisibility": "toggle",
   "editor.formatOnSave": true,
   "[typescript]": {
@@ -551,4 +551,6 @@
   },
   "workbench.colorTheme": "generated-dark",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'PowerlineSymbols', 'fontawesome', 'JetBrainsMonoMedium Nerd Font'",
+  "vscode-neovim.neovimExecutablePaths.linux": "/home/gabo/packages/nvim.appimage",
 }
