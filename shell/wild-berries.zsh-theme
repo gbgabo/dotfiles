@@ -19,7 +19,7 @@ ok_username() {
    ARROW_BG="053"
    NEXT_ARROW_BG="161"
    NEXT_ARROW_FG="053"
-   echo "$(arrow_start) %n $(arrow_end)"
+   echo "$(arrow_start)  $(arrow_end)"
 }
 
 err_username() {
@@ -27,7 +27,7 @@ err_username() {
    ARROW_BG="160"
    NEXT_ARROW_BG="161"
    NEXT_ARROW_FG="160"
-   echo "$(arrow_start) %n $(arrow_end)"
+   echo "$(arrow_start)  $(arrow_end)"
 }
 
 # return err_username if there are errors, ok_username otherwise
@@ -40,7 +40,7 @@ directory() {
    ARROW_BG="161"
    [[ -n "$(git_prompt_info)" ]] && NEXT_ARROW_BG="171" || NEXT_ARROW_BG=""
    NEXT_ARROW_FG="161"
-   [[ "$PWD" = "$HOME" ]] && DIR_PATH="" || DIR_PATH=" %2~"
+   [[ "$PWD" = "$HOME" ]] && DIR_PATH="" || DIR_PATH=" %2~"
    echo "$(arrow_start) $DIR_PATH $(arrow_end)"
 }
 
@@ -53,7 +53,7 @@ git_prompt() {
    ARROW_BG="171"
    NEXT_ARROW_BG=""
    NEXT_ARROW_FG="171"
-   [[ -n "$(git_prompt_info)" ]] && prompt="$(arrow_start) $(git_prompt_info) $(arrow_end)" || prompt=""
+   [[ -n "$(git_prompt_info)" ]] && prompt="$(arrow_start)  $(git_prompt_info) $(arrow_end)" || prompt=""
    echo $prompt
 }
 
