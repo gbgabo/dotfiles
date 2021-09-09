@@ -29,10 +29,11 @@ alias np='nano -w PKGBUILD'
 alias more=less
 alias myip='curl ipinfo.io/ip'	# print my public IP
 alias left='ls -t -1'
-alias cat='bat'
+alias cat='batcat'
 alias update='sudo apt update && apt list --upgradable'
 alias upgrade='sudo apt upgrade'
 alias please='sudo $(fc -ln -1)'
+alias nvim='~/packages/nvim.appimage'
 
 # ============== navigation aliases ==============
 
@@ -40,5 +41,5 @@ alias ..='cd ..'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
-
+alias pac='cd ~/packages'
 alias dot="cd ~/.dotfiles"
