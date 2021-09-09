@@ -23,12 +23,10 @@ Here you will find **shell** utilities, ui/**theming** configurations, and some 
 - **WM**: dwm
 - **Theme**: oomox-wildBerries
 - **Icons**: papirus-wilBerries
-- **Terminal**: xfce4-terminal
+- **Terminal**: st
 - **Terminal Font**: JetBrains Mono NL Medium 12
 
-<a name="dependencies"></a>
-
-## 📦 Dependencies
+## 📦 Expected Applications
 
 Applications I use everyday for my workflow. You don't really need them to enjoy my dotfiles, but if you would like to know what I use.
 
