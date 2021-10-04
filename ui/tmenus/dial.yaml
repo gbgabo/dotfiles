@@ -14,8 +14,8 @@ Dial:
   Update: x-terminal-emulator 'sudo apt update; clear; apt list --upgradable'
   Bluetooth: blueman-manager
   Screenshot:
-    Fullscreen: scrot -q 100 '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.png'
-    Selected: scrot -s -q 100 '/home/gabo/Pictures/screenshots/%Y-%m-%d-%H_%M_%S.png'
+    Fullscreen: maim -m 10 --format png ~/Pictures/screenshots/$(date +%F_%T).png
+    Selected: maim -s -m 10 --format png /dev/stdout | xclip -selection clipboard -t image/png -i && notify-send -t 2000 "Copied\!" "Screenshot copied to clipboard\!"
   Displays: arandr
   Appearance: lxappearance
   Repos: dmenu_tgit
