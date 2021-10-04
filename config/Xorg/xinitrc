@@ -6,4 +6,5 @@ xwallpaper --output eDP-1 --stretch Pictures/wallpapers/object_mono_dark_purple_
 dunst &
 fcitx -d &
 sh -c "sleep 10 && xscreensaver -no-splash &" & # Had to add a sleep so it ensures .Xresources colors on xscreensaver (xscreensaver problem)
+blueman-applet
 exec dwm
