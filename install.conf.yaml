@@ -28,3 +28,6 @@
       path: config/dunstrc
       create: true
     ~/.gitconfig: gitconfig
+    ~/.config/compton/compton.conf:
+      path: config/compton.conf
+      create: true
