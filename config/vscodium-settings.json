@@ -147,7 +147,7 @@
       "gitDecoration.deletedResourceForeground": "#f07171",
       "gitDecoration.stageDeletedResourceForeground": "#f07171",
       "gitDecoration.stageModifiedResourceForeground": "#399ee6",
-      "settings.modifiedItemIndicator": "#399ee6",
+      "settings.modifiedItemIndicator": "#399ee6"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -553,4 +553,43 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'PowerlineSymbols', 'fontawesome', 'JetBrainsMonoMedium Nerd Font'",
   "vscode-neovim.neovimExecutablePaths.linux": "/home/gabo/packages/nvim.appimage",
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "authors": true
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  }
 }
