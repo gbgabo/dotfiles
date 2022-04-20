@@ -8,32 +8,32 @@
 *.color8:       #505050
 
 ! red
-*.color1:       #900048
-*.color9:       #900048
+*.color1:       #d70040
+*.color9:       #d70040
 
 ! green
 *.color2:       #00ff40
 *.color10:      #00ff40
 
 ! yellow
-*.color3:       #f4cc53
-*.color11:      #f4cc53
+*.color3:       #ffd700
+*.color11:      #ffd700
 
 ! blue
-*.color4:       #00ffff
-*.color12:      #00ffff
+*.color4:       #399ee6
+*.color12:      #399ee6
 
 ! magenta
-*.color5:       #c79bff
-*.color13:      #c79bff
+*.color5:       #900048
+*.color13:      #900048
 
 ! cyan
 *.color6:       #00ffb7
 *.color14:      #00ffb7
 
 ! white
-*.color7:       #d0d0d0
-*.color15:      #f5f5f5
+*.color7:       #c79bff
+*.color15:      #c79bff
 
 URxvt.font:         xft:JetBrainsMonoNL-Medium:size=12
 URxvt*depth:        32
