@@ -2,7 +2,9 @@ Dial:
   Power:
     Shutdown: x-terminal-emulator -e 'bash -c "sudo poweroff"'
     Restart: x-terminal-emulator -e 'bash -c "sudo reboot"'
-    Lock: xscreensaver-command -lock
+    Lock:
+      Lock_screen: xscreensaver-command -lock
+      Disable_Lock: killall xscreensaver
   Network: x-terminal-emulator -e nmtui
   Self-Host:
     Pi-hole: firefox-esr http://192.168.18.18/admin/index.php
@@ -14,19 +16,13 @@ Dial:
   Update: x-terminal-emulator 'sudo apt update; clear; apt list --upgradable'
   Bluetooth: blueman-manager
   Screenshot:
-    Fullscreen: maim -m 10 --format png ~/Pictures/screenshots/$(date +%F_%T).png
-    Selected: maim -s -m 10 --format png /dev/stdout | xclip -selection clipboard -t image/png -i && notify-send -t 2000 "Copied\!" "Screenshot copied to clipboard\!"
+    Fullscreen: sleep 3 && maim -s -u -m 10 --format png ~/Pictures/screenshots/$(date +%F_%T).png
+    Selected: maim -s -u -m 10 --format png /dev/stdout | xclip -selection clipboard -t image/png -i && notify-send -t 2000 "Copied\!" "Screenshot copied to clipboard\!"
   Displays: arandr
   Appearance: lxappearance
   Repos: dmenu_tgit
   Manuals: x-terminal-emulator -e "man $(apropos . | dmenu -i -l 15 | awk '{print $2, $1}' | tr -d '()')"
   Windows: $HOME/packages/tinytools/twindow/dmenu_twindow
-  Webapps:
-    Discord: xdg-open https://discord.com/channels/@me
-    Telegram: xdg-open https://evgeny-nadymov.github.io/telegram-react/
-    Podcast: xdg-open https://podcasts.google.com/
-    Notion: xdg-open https://www.notion.so/
-    UP: xdg-open https://novoportal.cruzeirodosul.edu.br/?empresa=up&blackboard=false
   Keyboard: fcitx-configtool
   Background: sxiv -t -o $HOME/Pictures/wallpapers | xargs xwallpaper --stretch
   Dotfiles: codium $HOME/.dotfiles
@@ -35,5 +31,6 @@ Dial:
     Weather: x-terminal-emulator -e 'bash -c "curl wttr.in; zsh"'
     Resources: x-terminal-emulator -e 'zsh -c "bpytop; zsh"'
   About: x-terminal-emulator -e 'zsh -c "neofetch; zsh"'
-  Bookmarks: tbm -lt | dmenu -p "Bookmarks" | { read title; tbm -luf $title } | { read url; xdg-open $url }
+  Bookmarks: export TBM_FILE=$HOME/.dotfiles/config/tinytools/tbm/bookmarks; dmenu_tbm
+  Read_Later: export TBM_FILE=$HOME/.dotfiles/config/tinytools/tbm/read_later; dmenu_tbm
   Mine: java -jar $HOME/Downloads/linux_osx/Shiginima\ Launcher\ SE.v4400.jar
