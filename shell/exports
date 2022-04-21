@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Shell
+# ███████╗██╗  ██╗██████╗  ██████╗ ██████╗ ████████╗███████╗
+# ██╔════╝╚██╗██╔╝██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝
+# █████╗   ╚███╔╝ ██████╔╝██║   ██║██████╔╝   ██║   ███████╗
+# ██╔══╝   ██╔██╗ ██╔═══╝ ██║   ██║██╔══██╗   ██║   ╚════██║
+# ███████╗██╔╝ ██╗██║     ╚██████╔╝██║  ██║   ██║   ███████║
+# ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝
+
+# Dedicated file to store all enviroment variables used in my shell.
+# It can be used by sourcing this file on your {bash/zsh}rc
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$PATH:$HOME/dev/flutter/bin"
+export PATH="$PATH:$HOME/.local/bin"
+
+export TBM_FILE="$HOME/.dotfiles/config/tinytools/tbm/bookmarks"
+export TSEARCH_FILE="$HOME/.dotfiles/config/tinytools/tsearch.yaml"
