@@ -1,5 +1,13 @@
 source '/usr/share/zsh-antigen/antigen.zsh'
 
+# zsh's
+#    ███████╗███████╗██╗  ██╗██████╗  ██████╗
+#    ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
+#      ███╔╝ ███████╗███████║██████╔╝██║     
+#     ███╔╝  ╚════██║██╔══██║██╔══██╗██║     
+# ██╗███████╗███████║██║  ██║██║  ██║╚██████╗
+# ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
+
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
@@ -11,8 +19,6 @@ antigen bundle git
 antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
-
-antigen bundle git
 antigen bundle npm
 antigen bundle encode64
 antigen bundle colorize
@@ -22,20 +28,14 @@ antigen bundle capistrano
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
-# antigen bundle rails
-# antigen bundle ruby
-# antigen bundle bundler
-
 # Tell Antigen that you're done.
 antigen apply
-
-# export PATH="$PATH:$HOME/dev/flutter/bin"
-# export PATH="$PATH:$HOME/dev/flutter"
-export PATH="$PATH:$HOME/.local/bin"
 
 # Load the theme.
 source "$HOME/.dotfiles/shell/wild-berries.zsh-theme"
 
+# Load settings shared among shells
+source $HOME/.dotfiles/shell/exports
 source $HOME/.dotfiles/shell/aliases
 source $HOME/.dotfiles/shell/functions
 

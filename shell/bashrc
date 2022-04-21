@@ -1,14 +1,16 @@
-#
-# ~/.bashrc
-#
+#!/bin/bash
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# Bash's
+#    ██████╗  █████╗ ███████╗██╗  ██╗██████╗  ██████╗
+#    ██╔══██╗██╔══██╗██╔════╝██║  ██║██╔══██╗██╔════╝
+#    ██████╔╝███████║███████╗███████║██████╔╝██║     
+#    ██╔══██╗██╔══██║╚════██║██╔══██║██╔══██╗██║     
+# ██╗██████╔╝██║  ██║███████║██║  ██║██║  ██║╚██████╗
+# ╚═╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
 
-export PATH="$PATH:$HOME/dev/flutter/bin"
-
-source $HOME/.dotfiles/shell/aliases
-source $HOME/.dotfiles/shell/functions
+source "$HOME/.dotfiles/shell/exports"
+source "$HOME/.dotfiles/shell/aliases"
+source "$HOME/.dotfiles/shell/functions"
 
 
 xhost +local:root > /dev/null 2>&1
