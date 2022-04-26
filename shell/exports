@@ -18,4 +18,4 @@ export PATH="$PATH:$HOME/dev/flutter/bin"
 export PATH="$PATH:$HOME/.local/bin"
 
 export TBM_FILE="$HOME/.dotfiles/config/tinytools/tbm/bookmarks"
-export TSEARCH_FILE="$HOME/.dotfiles/config/tinytools/tsearch.yaml"
+export TSEARCH_CONFIG="$HOME/.dotfiles/config/tinytools/tsearch.yaml"
