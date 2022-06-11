@@ -44,6 +44,8 @@ alias update='sudo apt update && apt list --upgradable'
 alias upgrade='sudo apt upgrade'
 alias please='sudo $(fc -ln -1)'
 alias nvim='~/packages/nvim.appimage'
+alias apt='nala'
+alias sudo='sudo '
 
 # ============== navigation aliases ==============
 
@@ -53,3 +55,7 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 alias pac='cd ~/packages'
 alias dot="cd ~/.dotfiles"
+
+# ============== emacs aliases ==============
+
+alias emacsc='emacsclient -c -a emacs'
