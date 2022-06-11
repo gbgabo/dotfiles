@@ -22,6 +22,7 @@ alias pur='\[\033[01;35m\]'   # Purple
 alias cyn='\[\033[01;36m\]'   # Cyan
 alias wht='\[\033[01;37m\]'   # White
 alias clr='\[\033[00m\]'      # Reset
+alias colors='for COLOR in {1..255}; do echo -en "\e[38;5;${COLOR}m${COLOR} "; done; echo;'
 
 # ============== git aliases ==============
 
