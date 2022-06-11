@@ -27,6 +27,14 @@ engine:
     query: https://twitter.com/search?q=TERM
   hackaday:
     query: https://hackaday.com/?s=TERM
+  synonyms:
+    query: https://www.thesaurus.com/browse/TERM
+  arch_wiki:
+    query: https://wiki.archlinux.org/index.php?search=TERM
+  github:
+    query: https://github.com/search?q=TERM
+  mdn:
+    query: https://developer.mozilla.org/en-US/search?q=TERM
 
 program:
   firefox:
