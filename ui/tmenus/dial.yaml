@@ -6,6 +6,7 @@ Dial:
       Lock_screen: xscreensaver-command -lock
       Disable_Lock: killall xscreensaver
   Network: x-terminal-emulator -e nmtui
+  Notes: $HOME/packages/Logseq-linux-x64-0.7.9.AppImage
   Self-Host:
     Pi-hole: firefox-esr http://192.168.18.18/admin/index.php
     Modem: xdg-open http://192.168.18.1/
