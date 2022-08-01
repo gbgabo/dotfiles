@@ -7,5 +7,6 @@ dunst &
 fcitx -d &
 sh -c "sleep 10 && xscreensaver -no-splash &" & # Had to add a sleep so it ensures .Xresources colors on xscreensaver (xscreensaver problem)
 blueman-applet &
+syncthing serve --no-browser --logfile=default &
 picom &
 exec dwm
