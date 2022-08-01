@@ -31,3 +31,5 @@
     ~/.config/compton/compton.conf:
       path: config/compton.conf
       create: true
+    ~/.tmux.conf:
+      path: config/tmux/tmux.conf
