@@ -46,6 +46,7 @@ alias upgrade='sudo apt upgrade'
 alias please='sudo $(fc -ln -1)'
 alias apt='nala'
 alias sudo='sudo '
+alias compositor_protocol="printf 'Session is: %s\n' \"${DISPLAY:+X11}${WAYLAND_DISPLAY:+WAYLAND}\""
 
 # ============== navigation aliases ==============
 
