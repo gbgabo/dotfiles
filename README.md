@@ -1,5 +1,3 @@
-<div align="center">
-    
 ```
 gabo's repo of
 ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗
@@ -9,9 +7,8 @@ gabo's repo of
 ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║
 ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
 ```
-</div>
 
-![](screenshot.jpg)
+![](screenshot.png)
 
 A repository to centralize all configuration files my workflow needs to behave the way It should.
 
