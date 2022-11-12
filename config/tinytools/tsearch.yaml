@@ -11,6 +11,8 @@ engine:
     query: https://www.google.com/search?q=TERM
   youtube:
     query: https://www.youtube.com/results?search_query=TERM
+  searx:
+    query: https://searx.thegpm.org/search?q=TERM
   duckduckgo:
     query: https://www.duckduckgo.com/?q=TERM
   netflix:
@@ -35,6 +37,10 @@ engine:
     query: https://github.com/search?q=TERM
   mdn:
     query: https://developer.mozilla.org/en-US/search?q=TERM
+  google_fonts:
+    query: https://fonts.google.com/?query=TERM
+  font_awesome:
+    query: https://fontawesome.com/search?q=TERM&o=r&m=free
 
 program:
   firefox:
