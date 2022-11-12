@@ -1,0 +1,18 @@
+- clean: ["~"]
+
+- link:
+    ~/.zprofile: shell/zprofile
+    ~/.bashrc: shell/bashrc
+    ~/.zshrc: shell/zshrc
+    ~/.antigen/bundles/themes/wild-berries.zsh-theme: shell/wild-berries.zsh-theme
+    ~/tmenus:
+      path: ui/tmenus/
+      create: true
+    ~/.vimrc: config/vimrc
+    ~/.config/neovim:
+      path: config/neovim/
+      create: true
+    ~/.Xresources: config/Xorg/Xresources
+    ~/.gitconfig: gitconfig
+    ~/.tmux.conf:
+      path: config/tmux/tmux.conf
