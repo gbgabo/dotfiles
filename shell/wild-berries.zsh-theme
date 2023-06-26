@@ -17,7 +17,7 @@ arrow_end() {
 ok_username() {
    ARROW_FG="197"
    ARROW_BG="053"
-   NEXT_ARROW_BG="013"
+   NEXT_ARROW_BG="089"
    NEXT_ARROW_FG="053"
    echo "$(arrow_start)  $(arrow_end)"
 }
@@ -25,7 +25,7 @@ ok_username() {
 err_username() {
    ARROW_FG="016"
    ARROW_BG="009"
-   NEXT_ARROW_BG="013"
+   NEXT_ARROW_BG="089"
    NEXT_ARROW_FG="009"
    echo "$(arrow_start)  $(arrow_end)"
 }
@@ -37,9 +37,9 @@ username() {
 
 directory() {
    ARROW_FG="014"
-   ARROW_BG="013"
+   ARROW_BG="089"
    [[ -n "$(git_prompt_info)" ]] && NEXT_ARROW_BG="171" || NEXT_ARROW_BG=""
-   NEXT_ARROW_FG="013"
+   NEXT_ARROW_FG="089"
    [[ "$PWD" = "$HOME" ]] && DIR_PATH="" || DIR_PATH=" %2~"
    echo "$(arrow_start) $DIR_PATH $(arrow_end)"
 }
