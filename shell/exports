@@ -18,4 +18,11 @@ export PATH="$PATH:$HOME/dev/flutter/bin"
 export PATH="$PATH:$HOME/.local/bin"
 
 export TBM_FILE="$HOME/.dotfiles/config/tinytools/tbm/bookmarks"
+export TLAUNCH_FILE="$HOME/.dotfiles/ui/tmenus/dial.yaml"
 export TSEARCH_CONFIG="$HOME/.dotfiles/config/tinytools/tsearch.yaml"
+
+source /usr/share/nvm/init-nvm.sh
+
+export FZF_DEFAULT_OPTS="--color=bg+:#900048,bg:-1,spinner:#f5e0dc,hl:#00ffb7 \
+                        --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+                        --color=marker:#900048,fg+:#00ffb7,prompt:#cba6f7,hl+:#00ffb7"
