@@ -41,10 +41,7 @@ alias more=less
 alias myip='curl ipinfo.io/ip'	# print my public IP
 alias left='ls -t -1'
 alias cat='bat'
-alias update='sudo apt update && apt list --upgradable'
-alias upgrade='sudo apt upgrade'
 alias please='sudo $(fc -ln -1)'
-alias apt='nala'
 alias sudo='sudo '
 alias compositor_protocol="printf 'Session is: %s\n' \"${DISPLAY:+X11}${WAYLAND_DISPLAY:+WAYLAND}\""
 
@@ -62,3 +59,9 @@ alias proj="cd ~/projects"
 
 alias emacsc='emacsclient -c -a emacs'
 alias code="/usr/share/codium/bin/codium"
+
+# ============== Debian based commands ==============
+
+alias apt='nala'
+alias update='sudo apt update && apt list --upgradable'
+alias upgrade='sudo apt upgrade'
