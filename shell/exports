@@ -23,6 +23,6 @@ export TSEARCH_CONFIG="$HOME/.dotfiles/config/tinytools/tsearch.yaml"
 
 source /usr/share/nvm/init-nvm.sh
 
-export FZF_DEFAULT_OPTS="--color=bg+:#900048,bg:-1,spinner:#f5e0dc,hl:#00ffb7 \
-                        --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+export FZF_DEFAULT_OPTS="--color=bg+:#900048,bg:-1,spinner:#ff0e82,hl:#00ffb7 \
+                        --color=fg:#cdd6f4,header:#ff0e82,info:#cba6f7,pointer:#00ffb7 \
                         --color=marker:#900048,fg+:#00ffb7,prompt:#cba6f7,hl+:#00ffb7"
