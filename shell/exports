@@ -11,17 +11,16 @@
 # Dedicated file to store all enviroment variables used in my shell.
 # It can be used by sourcing this file on your {bash/zsh}rc
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
 export PATH="$PATH:$HOME/dev/flutter/bin"
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Loads nvm
 
 export TBM_FILE="$HOME/.dotfiles/config/tinytools/tbm/bookmarks"
 export TLAUNCH_FILE="$HOME/.dotfiles/ui/tmenus/dial.yaml"
 export TSEARCH_CONFIG="$HOME/.dotfiles/config/tinytools/tsearch.yaml"
-
-source /usr/share/nvm/init-nvm.sh
 
 export FZF_DEFAULT_OPTS="--color=bg+:#900048,bg:-1,spinner:#ff0e82,hl:#00ffb7 \
                         --color=fg:#cdd6f4,header:#ff0e82,info:#cba6f7,pointer:#00ffb7 \
