@@ -13,7 +13,7 @@
     ~/.icons:
       path: ui/icons/
       create: true
-    ~/.config/VSCodium/User/settings.json: config/vscodium-settings.json
+    ~/.var/app/com.visualstudio.code-oss/config/Code - OSS/User/settings.json: config/vscodium-settings.json
     ~/.vimrc: config/vimrc
     ~/.i3:
       path: config/i3/
@@ -21,6 +21,7 @@
     ~/.config/neovim:
       path: config/neovim/
       create: true
+    ~/.var/app/dev.zed.Zed/config/zed/settings.json: config/zed/settings.json
     ~/.Xresources: config/Xorg/Xresources
     ~/.xinitrc: config/Xorg/xinitrc
     ~/.config/dunst/dunstrc:
